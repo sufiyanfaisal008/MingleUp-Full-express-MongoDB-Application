@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "backend-mingleup": {
+      "root": "BackEnd-MingleUp",
+      "framework": "express"
+    },
+    "frontend-mingleup": {
+      "root": "FrontEnd-MingleUp",
+      "framework": "vite"
+    }
+  },
+  "rewrites": []
+}
